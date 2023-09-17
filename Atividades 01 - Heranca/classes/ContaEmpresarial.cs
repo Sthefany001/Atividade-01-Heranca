@@ -54,7 +54,7 @@ namespace Atividades_01___Heranca.classes
                 }
                 else if (valor >= 5000)
                 {
-                    double taxa = 5.00;
+                    double taxa = 5;
                     Anuidade += taxa;
 
                     Saldo -= valor;
