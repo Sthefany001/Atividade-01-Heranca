@@ -23,14 +23,12 @@ namespace Atividades_01___Heranca.classes
             Saldo = saldo;
         }
 
-        public virtual void Sacar()
+        public virtual void Sacar(double valor)
         {
-            Console.Write($"\nDigite o valor do saque: ");
-            double saque = Convert.ToDouble(Console.ReadLine());
 
-            if (Saldo >= saque)
+            if (Saldo >= valor)
             {
-                Saldo -= saque;
+                Saldo -= valor;
                 Console.WriteLine($"\nSaque realizado com sucesso! Seu saldo atual = {Saldo}");
             }
             else
@@ -39,12 +37,9 @@ namespace Atividades_01___Heranca.classes
             }
         }
 
-        public void Depositar()
+        public void Depositar(double valor)
         {
-            Console.Write($"\nDigite o valor que deseja depositar: ");
-            double valorDeposito = Convert.ToDouble(Console.ReadLine());
-
-            Saldo += valorDeposito;
+            Saldo += valor;
             Console.WriteLine($"\nDepósito realizado com sucesso! Seu saldo atual = {Saldo}");
         }
     }

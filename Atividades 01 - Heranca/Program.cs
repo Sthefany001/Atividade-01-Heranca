@@ -24,8 +24,13 @@ public class Program
                 a.Titular = "Sthefany";
                 a.Saldo = 1000;
 
-                a.Sacar();
-                a.Depositar();
+                Console.Write("\nDigite o valor do saque: ");
+                double saque = Convert.ToDouble(Console.ReadLine());
+                a.Sacar(saque);
+
+                Console.Write("\nDigite o valor do depósito: ");
+                double deposito = Convert.ToDouble(Console.ReadLine());
+                a.Depositar(deposito);
             }
             else if (opcao == 2)
             {
@@ -39,7 +44,9 @@ public class Program
                 b.Titular = "Natalia";
                 b.Saldo = 100;
 
-                b.Sacar();
+                Console.Write("\nDigite o valor do emprestimo: ");
+                double emprestimo = Convert.ToDouble(Console.ReadLine());
+                b.Sacar(emprestimo);
             }
             else if (opcao == 3)
             {
@@ -51,14 +58,19 @@ public class Program
                 c.Nconta = 3;
                 c.Agencia = "c";
                 c.Titular = "Paulo";
-                c.Saldo = 20000;
+                c.Saldo = 10000;
 
-                c.FazerEmprestimo();
-                c.Sacar();
+                Console.Write("\nDigite o valor do emprestimo: ");
+                double emprestimo = Convert.ToDouble(Console.ReadLine());
+                c.FazerEmprestimo(emprestimo);
+
+                Console.Write("\nDigite o valor do saque: ");
+                double saque = Convert.ToDouble(Console.ReadLine());
+                c.Sacar(saque);
             }
             else if(opcao == 0)
             {
-                Console.WriteLine("\nObrigada por usar o programa");
+                Console.WriteLine("\nObrigada por usar o programa! XD");
             }
             else
             {

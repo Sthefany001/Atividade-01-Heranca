@@ -24,11 +24,8 @@ namespace Atividades_01___Heranca.classes
             TotalEmprestimo = totalEmprestimo;
         }
 
-        public void FazerEmprestimo()
+        public void FazerEmprestimo(double valor)
         {
-            Console.Write("\nDigite o valor do emprestimo: ");
-            double valor = Convert.ToDouble(Console.ReadLine());
-
             if(valor <= LimiteEmprestimo)
             {
                 Saldo += valor;
@@ -44,25 +41,27 @@ namespace Atividades_01___Heranca.classes
 
         }
 
-        public override void Sacar()
+        public override void Sacar(double valor)
         {
-            Console.Write($"\nDigite o valor do saque: ");
-            double saque = Convert.ToDouble(Console.ReadLine());
         
-            if (Saldo <= saque)
+            if (Saldo >= valor)
             {
-                Saldo -= saque;
                
-                if (saque >= 5.000)
+                if(valor < 5000)
+                {
+                    Saldo -= valor;
+                    Console.WriteLine($"\nSaque realizado com sucesso! Seu saldo atual = {Saldo}");
+                }
+                else if (valor >= 5000)
                 {
                     double taxa = 5.00;
                     Anuidade += taxa;
 
+                    Saldo -= valor;
                     Saldo -= Anuidade;
                     Console.WriteLine($"\nSaque realizado com sucesso! Seu saldo atual = {Saldo}");
                 }
-
-                Console.WriteLine($"\nSaque realizado com sucesso! Seu saldo atual = {Saldo}");
+                             
             }
             else
             {

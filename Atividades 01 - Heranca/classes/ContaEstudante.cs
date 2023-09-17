@@ -24,16 +24,13 @@ namespace Atividades_01___Heranca.classes
             NomeInstituicao = nomeInstituicao;
         }
 
-        public override void Sacar()
+        public override void Sacar(double valor)
         {
-            Console.Write($"\nDigite o valor do saque: ");
-            double saque = Convert.ToDouble(Console.ReadLine());
-
             double soma = Saldo + LimiteChequeEspecial;
 
-            if(saque <= soma)
+            if(valor <= soma)
             {
-                Saldo -= saque;
+                Saldo -= valor;
                 Console.WriteLine($"\nSaque realizado com sucesso! Seu saldo atual = {Saldo}");
             }
             else

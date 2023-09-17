@@ -13,3 +13,18 @@ C:\Users\2022102020014\Desktop\L. Programação (Elias)\3bim\Atividades 01 - Her
 C:\Users\2022102020014\Desktop\L. Programação (Elias)\3bim\Atividades 01 - Heranca\Atividades 01 - Heranca\obj\Debug\net6.0\Atividades 01 - Heranca.pdb
 C:\Users\2022102020014\Desktop\L. Programação (Elias)\3bim\Atividades 01 - Heranca\Atividades 01 - Heranca\obj\Debug\net6.0\Atividades 01 - Heranca.genruntimeconfig.cache
 C:\Users\2022102020014\Desktop\L. Programação (Elias)\3bim\Atividades 01 - Heranca\Atividades 01 - Heranca\obj\Debug\net6.0\ref\Atividades 01 - Heranca.dll
+C:\Users\Samsung\OneDrive\Área de Trabalho\Programação\Linguagem de programação 2ºB\3bim\Atividade Herança\Atividade-01-Heranca\Atividades 01 - Heranca\obj\Debug\net6.0\Atividades 01 - Heranca.csproj.AssemblyReference.cache
+C:\Users\Samsung\OneDrive\Área de Trabalho\Programação\Linguagem de programação 2ºB\3bim\Atividade Herança\Atividade-01-Heranca\Atividades 01 - Heranca\obj\Debug\net6.0\Atividades 01 - Heranca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Samsung\OneDrive\Área de Trabalho\Programação\Linguagem de programação 2ºB\3bim\Atividade Herança\Atividade-01-Heranca\Atividades 01 - Heranca\obj\Debug\net6.0\Atividades 01 - Heranca.AssemblyInfoInputs.cache
+C:\Users\Samsung\OneDrive\Área de Trabalho\Programação\Linguagem de programação 2ºB\3bim\Atividade Herança\Atividade-01-Heranca\Atividades 01 - Heranca\obj\Debug\net6.0\Atividades 01 - Heranca.AssemblyInfo.cs
+C:\Users\Samsung\OneDrive\Área de Trabalho\Programação\Linguagem de programação 2ºB\3bim\Atividade Herança\Atividade-01-Heranca\Atividades 01 - Heranca\obj\Debug\net6.0\Atividades 01 - Heranca.csproj.CoreCompileInputs.cache
+C:\Users\Samsung\OneDrive\Área de Trabalho\Programação\Linguagem de programação 2ºB\3bim\Atividade Herança\Atividade-01-Heranca\Atividades 01 - Heranca\obj\Debug\net6.0\Atividades 01 - Heranca.dll
+C:\Users\Samsung\OneDrive\Área de Trabalho\Programação\Linguagem de programação 2ºB\3bim\Atividade Herança\Atividade-01-Heranca\Atividades 01 - Heranca\obj\Debug\net6.0\refint\Atividades 01 - Heranca.dll
+C:\Users\Samsung\OneDrive\Área de Trabalho\Programação\Linguagem de programação 2ºB\3bim\Atividade Herança\Atividade-01-Heranca\Atividades 01 - Heranca\obj\Debug\net6.0\Atividades 01 - Heranca.pdb
+C:\Users\Samsung\OneDrive\Área de Trabalho\Programação\Linguagem de programação 2ºB\3bim\Atividade Herança\Atividade-01-Heranca\Atividades 01 - Heranca\bin\Debug\net6.0\Atividades 01 - Heranca.exe
+C:\Users\Samsung\OneDrive\Área de Trabalho\Programação\Linguagem de programação 2ºB\3bim\Atividade Herança\Atividade-01-Heranca\Atividades 01 - Heranca\bin\Debug\net6.0\Atividades 01 - Heranca.deps.json
+C:\Users\Samsung\OneDrive\Área de Trabalho\Programação\Linguagem de programação 2ºB\3bim\Atividade Herança\Atividade-01-Heranca\Atividades 01 - Heranca\bin\Debug\net6.0\Atividades 01 - Heranca.runtimeconfig.json
+C:\Users\Samsung\OneDrive\Área de Trabalho\Programação\Linguagem de programação 2ºB\3bim\Atividade Herança\Atividade-01-Heranca\Atividades 01 - Heranca\bin\Debug\net6.0\Atividades 01 - Heranca.dll
+C:\Users\Samsung\OneDrive\Área de Trabalho\Programação\Linguagem de programação 2ºB\3bim\Atividade Herança\Atividade-01-Heranca\Atividades 01 - Heranca\bin\Debug\net6.0\Atividades 01 - Heranca.pdb
+C:\Users\Samsung\OneDrive\Área de Trabalho\Programação\Linguagem de programação 2ºB\3bim\Atividade Herança\Atividade-01-Heranca\Atividades 01 - Heranca\obj\Debug\net6.0\Atividades 01 - Heranca.genruntimeconfig.cache
+C:\Users\Samsung\OneDrive\Área de Trabalho\Programação\Linguagem de programação 2ºB\3bim\Atividade Herança\Atividade-01-Heranca\Atividades 01 - Heranca\obj\Debug\net6.0\ref\Atividades 01 - Heranca.dll
