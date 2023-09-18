@@ -39,8 +39,15 @@ namespace Atividades_01___Heranca.classes
 
         public void Depositar(double valor)
         {
-            Saldo += valor;
-            Console.WriteLine($"\nDepósito realizado com sucesso! Seu saldo atual = {Saldo}");
+            if(valor >= 0)
+            {
+                Saldo += valor;
+                Console.WriteLine($"\nDepósito realizado com sucesso! Seu saldo atual = {Saldo}");
+            }
+            else
+            {
+                Console.WriteLine($"\nOperação inválida!");
+            }
         }
     }
 }
