@@ -26,7 +26,11 @@ namespace Atividades_01___Heranca.classes
 
         public void FazerEmprestimo(double valor)
         {
+<<<<<<< HEAD
             if(valor <= LimiteEmprestimo - TotalEmprestimo)
+=======
+            if(valor <= (LimiteEmprestimo - TotalEmprestimo))
+>>>>>>> 993a5b604f0900e4cb2c6241140dfdafcb414fcf
             {
                 Saldo += valor;
                 TotalEmprestimo += valor;
