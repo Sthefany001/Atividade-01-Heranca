@@ -26,7 +26,7 @@ namespace Atividades_01___Heranca.classes
 
         public void FazerEmprestimo(double valor)
         {
-            if(valor <= LimiteEmprestimo)
+            if(valor <= LimiteEmprestimo - TotalEmprestimo)
             {
                 Saldo += valor;
                 TotalEmprestimo += valor;
@@ -47,18 +47,18 @@ namespace Atividades_01___Heranca.classes
             if (Saldo >= valor)
             {
                
-                if(valor < 5000)
-                {
-                    Saldo -= valor;
-                    Console.WriteLine($"\nSaque realizado com sucesso! Seu saldo atual = {Saldo}");
-                }
-                else if (valor >= 5000)
+                if(valor >= 5000)
                 {
                     double taxa = 5;
                     Anuidade += taxa;
 
                     Saldo -= valor;
                     Saldo -= Anuidade;
+                    Console.WriteLine($"\nSaque realizado com sucesso! Seu saldo atual = {Saldo}");
+                }
+                else
+                {
+                    Saldo -= valor;
                     Console.WriteLine($"\nSaque realizado com sucesso! Seu saldo atual = {Saldo}");
                 }
                              
